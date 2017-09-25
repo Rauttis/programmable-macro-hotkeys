@@ -6,7 +6,7 @@ Create programmable macro hotkeys on any platform.
 * Robot.js for the macros
 
 ## Usage
-1. Install build tools
+1. Install build tools (needed for building Robot.js)
    * OSX: Xcode
    * Windows: npm i -g --production windows-build-tools
 2. npm i
