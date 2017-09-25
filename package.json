@@ -1,0 +1,19 @@
+{
+  "name": "programmable-macro-hotkeys",
+  "description": "Boilerplate for creating programmable macro hotkeys",
+  "version": "1.0.0",
+  "author": "Niklas Appelroth <niklas.appelroth@gmail.com>",
+  "license": "MIT",
+  "main": "src/app.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron ./src/app.js"
+  },
+  "dependencies": {
+    "electron": "^1.7.8",
+    "robotjs": "^0.4.7"
+  },
+  "devDependencies": {
+    "electron-builder": "^19.30.1"
+  }
+}
